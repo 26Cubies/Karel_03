@@ -25,18 +25,35 @@ public class Climber extends Athlete {
 	}
 	
 	public void climbUpRight() {
-		//TODO Your code goes here
-	}
+turnLeft();
+move();
+move();
+turnRight();
+move();
+}
 	
 	public void climbUpLeft() {
-		//TODO Your code goes here
+turnRight();
+move();
+move();
+turnLeft();
+move();
 	}
 	
 	public void climbDownRight() {
-		//TODO Your code goes here
+turnRight();
+move();
+move();
+turnLeft();
+move();
+
 	}
 	
 	public void climbDownLeft() {
-		//TODO Your code goes here
+turnLeft();
+move();
+move();
+turnRight();
+move();
 	}
 }
